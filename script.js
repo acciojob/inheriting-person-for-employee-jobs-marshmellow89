@@ -46,8 +46,8 @@ function Employee(name, age, jobTitle) {
 }
 
 // set up inheritance
-Employee.prototype = Object.create(Person.prototype);
-Employee.prototype.constructor = Employee;
+// Employee.prototype = Object.create(Person.prototype);
+// Employee.prototype.constructor = Employee;
 
 // Do not change code below this line
 window.Person = Person;

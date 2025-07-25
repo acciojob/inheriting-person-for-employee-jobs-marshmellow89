@@ -21,7 +21,7 @@ Employee.prototype = Object.create(Person.prototype);
 Employee.prototype.constructor = Employee;
 
 // Do not change code below this line
-// window.Person = Person;
-// window.Employee = Employee;
+window.Person = Person;
+window.Employee = Employee;
 
 
